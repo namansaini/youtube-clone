@@ -36,7 +36,8 @@ li,
   align-items: center;
   height: 10vh;
   background-color: #202020;
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
 }
 .navbar > div {
   height: 70%;
@@ -96,20 +97,27 @@ li,
   display: flex;
   flex-direction: column;
   font-size: 2rem;
-  /* position:fixed;
-    top: 10vh; */
+  position: fixed;
+  left: 0vh;
+  margin-top: 1.4rem;
+  /* flex-basis: 17%; */
+  width: 17%;
   /* margin-top: 10vh; */
+}
+.sidebar_divider{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    height: 0.2rem;
+    background-color: #2e2e2e;
 }
 .big-container {
-  display: flex;
-  /* margin-top: 10vh; */
-}
-.sidebar {
-  margin-top: 1.4rem;
-  flex-basis: 17%;
+  /* display: flex; */
+  margin-top: 10vh;
 }
 .main-content-view {
-  flex-basis: 83%;
+  /* flex-basis: 83%; */
+  width: 83%;
+  margin-left: 17%;
   display: flex;
   flex-direction: column;
 }
@@ -134,21 +142,19 @@ li,
   background-color: #383838;
   color: white;
 }
-.sidebar hr {
-  border: 0.1rem solid #2e2e2e;
-  margin: 1.5rem;
-}
-hr {
-  border: 0.1rem solid #2e2e2e;
-}
+
 
 .suggestion_header {
+  position: fixed;
+  border-bottom: 0.15rem solid #2e2e2e;
+  border-top: 0.15rem solid #2e2e2e;
   display: flex;
   align-items: center;
+  background-color: #202020;
   justify-content: space-between;
   /* flex-basis: 20%; */
   height: 6rem;
-  margin: 0 0 0 2rem;
+  padding-left: 2rem;
 }
 
 ul {
@@ -171,6 +177,9 @@ li:hover {
   color: black;
   background-color: white;
 }
+.video_content {
+  margin-top: 6rem;
+}
 .suggestion_header i {
   margin: 0 2rem;
 }
@@ -181,14 +190,14 @@ li:hover {
   /* width: 100%; */
   background-color: #181818;
 }
-.divider_container{
-    background-color: #181818;
+.divider_container {
+  background-color: #181818;
 }
-.divider{
-    /* border: 30px normal #1f2f38; */
-    height: 0.5rem;
-    margin: 2rem 2rem 1rem 2rem;
-    background-color:#2e2e2e;
+.divider {
+  /* border: 30px normal #1f2f38; */
+  height: 0.5rem;
+  margin: 2rem 2rem 1rem 2rem;
+  background-color: #2e2e2e;
 }
 .card_view {
   display: flex;
