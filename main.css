@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* Converting 1 rem to 10px */
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  background-color: #202020;
+  color: white;
+}
+.content-1,
+.content-2,
+.content-3 img,
+.search-icon,
+i,
+.option,
+li,
+.card {
+  cursor: pointer;
+}
+.material-icons {
+  color: rgba(255, 255, 255, 1);
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  /* padding: 1rem; */
+  padding-left: 1.5rem;
+  align-items: center;
+  height: 10vh;
+  background-color: #202020;
+  /* position: fixed; */
+}
+.navbar > div {
+  height: 70%;
+}
+.content-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.youtube {
+  margin-left: 2.5rem;
+  margin-right: 0.2rem;
+}
+.content-1 p {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  letter-spacing: -1px;
+}
+.content-2 {
+  display: flex;
+  align-items: center;
+}
+.content-2 input {
+  font-size: 1.6rem;
+  width: 60rem;
+  padding: 0.3rem 2rem;
+  height: 80%;
+  background-color: #121212;
+  color: white;
+  border: none;
+}
+.content-2 input:focus {
+  border: 0.05rem solid blue;
+  outline: none;
+}
+.search-icon {
+  /* margin-top: 0.5rem; */
+
+  background-color: #313131;
+  height: 80%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+.content-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-3 i,
+.content-3 img {
+  margin-right: 3rem;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  /* position:fixed;
+    top: 10vh; */
+  /* margin-top: 10vh; */
+}
+.big-container {
+  display: flex;
+  /* margin-top: 10vh; */
+}
+.sidebar {
+  margin-top: 1.4rem;
+  flex-basis: 17%;
+}
+.main-content-view {
+  flex-basis: 83%;
+  display: flex;
+  flex-direction: column;
+}
+.active_sidebar {
+  background-color: #383838;
+}
+
+.option .material-icons {
+  padding-right: 2.5rem;
+  color: #909090;
+}
+.active_sidebar .material-icons {
+  color: white;
+}
+.option {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 0 0.7rem 2rem;
+}
+.option:hover {
+  background-color: #383838;
+  color: white;
+}
+.sidebar hr {
+  border: 0.1rem solid #2e2e2e;
+  margin: 1.5rem;
+}
+hr {
+  border: 0.1rem solid #2e2e2e;
+}
+
+.suggestion_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-basis: 20%; */
+  height: 6rem;
+  margin: 0 0 0 2rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+li {
+  display: inline;
+  border-radius: 2rem;
+  background-color: #373737;
+  padding: 1rem 1.4rem;
+  margin: 0 0.5rem;
+  font-size: 1.4rem;
+}
+li:hover {
+  background-color: #424242;
+}
+#active_suggestion {
+  color: black;
+  background-color: white;
+}
+.suggestion_header i {
+  margin: 0 2rem;
+}
+.section_name {
+  font-size: 2rem;
+  padding: 3rem 3rem 1rem 3rem;
+  font-weight: 500;
+  /* width: 100%; */
+  background-color: #181818;
+}
+.divider_container{
+    background-color: #181818;
+}
+.divider{
+    /* border: 30px normal #1f2f38; */
+    height: 0.5rem;
+    margin: 2rem 2rem 1rem 2rem;
+    background-color:#2e2e2e;
+}
+.card_view {
+  display: flex;
+  flex-flow: wrap;
+  background-color: #181818;
+  /* margin-left: 1.5rem; */
+  padding-left: 1.5rem;
+  padding-bottom: 3rem;
+}
+.card {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+  margin: 1.5rem;
+}
+.card img {
+  width: 100%;
+  height: 140px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 10vh;
+  margin-top: 1rem;
+  /* align-items: center; */
+}
+.container img {
+  flex-basis: 10%;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.container i {
+  flex-basis: 10%;
+}
+
+.first_item {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  color: white;
+}
+.more_icon {
+  color: #a8a8a8;
+}
+.channel_name:hover,
+.more_icon:hover {
+  color: white;
+}
+.content {
+  margin-left: 0.5rem;
+  flex-basis: 80%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  color: #a8a8a8;
+}
