@@ -57,6 +57,10 @@ li,
   font-size: 2rem;
   letter-spacing: -1px;
 }
+sup{
+  font-size: 1rem;
+  color: #9d9d9d;
+}
 .content-2 {
   display: flex;
   align-items: center;
