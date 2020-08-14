@@ -196,8 +196,10 @@ li:hover {
 .divider {
   /* border: 30px normal #1f2f38; */
   height: 0.5rem;
-  margin: 2rem 2rem 1rem 2rem;
+  /* padding: 2rem 2rem 1rem 2rem; */
   background-color: #2e2e2e;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .card_view {
   display: flex;
@@ -255,4 +257,17 @@ li:hover {
   flex-direction: column;
   font-size: 1.3rem;
   color: #a8a8a8;
+}
+
+@media(max-width:998px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:850px)
+{
+    html{
+        font-size: 45%;
+    }
 }
