@@ -268,9 +268,8 @@ li:hover {
     html{
         font-size: 55%;
     }
-    
 }
-@media(max-width:896px)
+@media(max-width:928px)
 {
     html{
         font-size: 45%;
