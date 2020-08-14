@@ -28,10 +28,10 @@ li,
 }
 .navbar {
   display: flex;
+  flex-flow: wrap;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  /* padding: 1rem; */
   padding-left: 1.5rem;
   align-items: center;
   height: 10vh;
@@ -152,9 +152,9 @@ li,
   align-items: center;
   background-color: #202020;
   justify-content: space-between;
-  /* flex-basis: 20%; */
   height: 6rem;
   padding-left: 2rem;
+  width: 100%;
 }
 
 ul {
@@ -264,10 +264,18 @@ li:hover {
     html{
         font-size: 55%;
     }
+    
 }
-@media(max-width:850px)
+@media(max-width:896px)
 {
     html{
         font-size: 45%;
+    }
+    .sidebar{
+        display: none;
+    }
+    .main-content-view{
+        width: 100%;
+        margin-left: 0%;
     }
 }
