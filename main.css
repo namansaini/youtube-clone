@@ -281,6 +281,19 @@ li:hover {
     .suggestion_header{
         width: 100%;
     }
+    .content-1 .youtube{
+        margin-right: 1rem;
+    }
+    
+    .content-1 p{
+        display: none;
+    }
+    .content-2 input{
+        width: 80%;
+    }
+    .content-3 i, .content-3 img{
+        margin-right: 0.5rem;
+    }
     .suggestion_header i{
         display: none;
     }
